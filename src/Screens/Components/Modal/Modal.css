@@ -1,0 +1,129 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.modal {
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(29%, 33%, 42%, 0.4);
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 60%;
+    padding: 0 50px;
+    background-color: #222326;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(241, 253, 255, 0.2);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(241, 253, 255, 0.2);
+    box-shadow: 0px 0px 15px 0px rgba(241, 253, 255, 0.2);
+}
+
+.close {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    margin-top: -450px;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+.credit-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 180px;
+    background: url("../../../Images/card.jpeg") no-repeat center top / cover;
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 50px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(241, 253, 255, 0.2);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(241, 253, 255, 0.2);
+    box-shadow: 0px 0px 15px 0px rgba(241, 253, 255, 0.2);
+}
+
+.name {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18pt;
+    color: #222326;
+    font-weight: 600;
+}
+
+.id {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20pt;
+    color: #F1FDFF;
+    border-radius: 10px;
+    background-color: #222326;
+    padding: 5px 10px;
+    margin: 60px 0 0 0;
+}
+
+.date {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14pt;
+    color: #F1FDFF;
+    margin: 65px 0 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-input {
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: block;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14pt;
+    background-color: #F1FDFF;
+    color: #222326;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 40px;
+    background-color: #FF9A8D;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14pt;
+    color: #F1FDFF;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 25px auto 0 auto;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    transition: background-color 0.15s;
+    text-decoration: none;
+}
+
+.order:hover {
+    cursor: pointer;
+    background-color: #fc7a6c;
+}

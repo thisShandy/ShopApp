@@ -1,0 +1,14 @@
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: auto;
+    width: 78%;
+    min-height: 80vh;
+    background-color: #4A536B;
+    border-radius: 10px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 5px 5px 10px 0 rgba(34, 35, 38, 0.25);
+    -moz-box-shadow: 5px 5px 10px 0 rgba(34, 35, 38, 0.25);
+    box-shadow: 5px 5px 10px 0 rgba(34, 35, 38, 0.25);
+}

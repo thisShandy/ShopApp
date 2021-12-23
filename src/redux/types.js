@@ -1,0 +1,10 @@
+export const CHANGE_SIZE_CHECKBOX = "CHANGE_SIZE_CHECKBOX";
+export const CHANGE_COLOR_CHECKBOX = "CHANGE_COLOR_CHECKBOX";
+export const FILTER_ACTION = "FILTER_ACTION";
+export const SET_CURRENT_GOOD = "SET_CURRENT_GOOD";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const ADD_SIZE = "ADD_SIZE";
+export const REMOVE_FROM_CART = "REMOVE_FROM_CART";
+export const BUY_NOW = "BUY_NOW";
+export const OPEN_MODAL = "OPEN_MODAL";
+export const SET_TOTAL = "SET_TOTAL";

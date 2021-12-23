@@ -1,0 +1,58 @@
+.parameters-container {
+    width: 12%;
+    height: 80vh;
+    background-color: #4A536B;
+    border-radius: 10px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 5px 5px 10px 0 rgba(34, 35, 38, 0.25);
+    -moz-box-shadow: 5px 5px 10px 0 rgba(34, 35, 38, 0.25);
+    box-shadow: 5px 5px 10px 0 rgba(34, 35, 38, 0.25);
+}
+
+.parameters-name {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20pt;
+    color: #F1FDFF;
+    text-transform: uppercase;
+}
+
+.parameters-container__parameters-name {
+    margin-top: 30px;
+}
+
+.parameter-name {
+    margin-top: 25px;
+    font-size: 16pt;
+    font-family: "Fira Sans Sans", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F1FDFF;
+}
+
+.filter-button {
+    justify-self: center;
+    width: 80px;
+    height: 32px;
+    background-color: #FF9A8D;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    transition: background-color 0.25s;
+}
+
+.filter-button:hover {
+    cursor: pointer;
+    background-color: #fc7a6c;
+}
+
+.filter-text {
+    color: #F1FDFF;
+    text-transform: uppercase;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+}

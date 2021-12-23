@@ -1,0 +1,20 @@
+.content-container {
+    width: 94%;
+    min-height: 65vh;
+    background-color: #4A536B;
+    border-radius: 10px;
+    padding: 5px 3%;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(34, 35, 38, 0.25);
+    -moz-box-shadow: 0 5px 10px 0 rgba(34, 35, 38, 0.25);
+    box-shadow: 0 5px 10px 0 rgba(34, 35, 38, 0.25);
+}
+
+.empty-cart {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    color: #F1FDFF;
+    font-size: 24pt;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 250px;
+}

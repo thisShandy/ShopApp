@@ -1,0 +1,41 @@
+.size-input {
+    display: none;
+}
+
+.size-label {
+    display: flex;
+    font-family: "Fira Sans Sans", sans-serif;
+    font-size: 14pt;
+    color: #F1FDFF;
+    font-weight: 400;
+    padding-left: 20px;
+    margin: 15px 0;
+    user-select: none;
+}
+
+.size-label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background: #F1FDFF;
+    vertical-align: middle;
+    margin: -3px 10px 0 -20px;
+    transition: background-color 0.1s;
+}
+
+.size-input:hover + .size-label::before, .size-label::after {
+    cursor: pointer;
+}
+
+.size-input:checked + .size-label::after {
+    content: '';
+    position: absolute;
+    display: block;
+    margin: 0 10px 0 -17px;
+    width: 14px;
+    height: 14px;
+    background: #FF9A8D;
+    border-radius: 3px;
+}

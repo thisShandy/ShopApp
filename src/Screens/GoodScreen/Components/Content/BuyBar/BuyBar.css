@@ -1,0 +1,51 @@
+.buy-buttons {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 40px;
+}
+
+.price {
+    padding: 20px 30px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20pt;
+    color: #F1FDFF;
+    font-weight: 500;
+    background-color: #FF9A8D;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+}
+
+.good-buttons {
+    display: flex;
+}
+
+.good-buy-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 48px;
+    margin: 0 15px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14pt;
+    color: #F1FDFF;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background-color: #FF9A8D;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    box-shadow: 0px 5px 10px 0px rgba(255, 154, 141, 0.15);
+    transition: background-color 0.25s;
+    text-decoration: none;
+}
+
+.good-buy-button:hover {
+    cursor: pointer;
+    background-color: #fc7a6c;
+}

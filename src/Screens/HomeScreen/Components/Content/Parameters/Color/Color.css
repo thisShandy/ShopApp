@@ -1,0 +1,41 @@
+.color-input {
+    display: none;
+}
+
+.color-label {
+    display: flex;
+    font-family: "Fira Sans Sans", sans-serif;
+    font-size: 12pt;
+    color: #F1FDFF;
+    font-weight: 400;
+    padding-left: 20px;
+    margin: 25px 0;
+    user-select: none;
+}
+
+.color-label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background: #F1FDFF;
+    vertical-align: middle;
+    margin: -3px 10px 0 -20px;
+    transition: background-color 0.1s;
+}
+
+.color-input:hover + .color-label::before, .color-label::after {
+    cursor: pointer;
+}
+
+.color-input:checked + .color-label::after {
+    content: '';
+    position: absolute;
+    display: block;
+    margin: 0 10px 0 -17px;
+    width: 14px;
+    height: 14px;
+    background: #FF9A8D;
+    border-radius: 3px;
+}
